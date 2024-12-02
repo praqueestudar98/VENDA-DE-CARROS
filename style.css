@@ -1,18 +1,49 @@
 body{
-    background: black;
-    color: orange ;
+    color: rgb(247, 186, 94);
+    background:rgba(160, 16, 16, 0.781) ;
     margin: 0px;
-    font-family: "tiny5", sans-serif;
+    font-family: "Itim", cursive;
     margin-bottom: 100px;
+
+}
+header{
+    border-bottom: solid 3px rgb(247, 186, 94);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(247, 186, 94);
+
 }
 
 .chamada{
-    background: peru(63,185,255) ;
+    background: rgb(160, 16, 16);
     margin-top: 80px;
     margin-bottom: 80px;
     display: flex;
     justify-content: center;
 }
-header{
-    color: blueviolet;
+
+.chamada-texto{
+    margin-right: 5%;
+}
+h1{
+    font-size: 34px;
+}
+.categoria{
+    background:  rgb(160,16, 16);
+    padding-left: 20px;
+    padding-right:20px;
+    margin-top:50px;
+}
+.categorias-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categorias-videos leg{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 3px solid rgb(247, 186, 94);
 }
